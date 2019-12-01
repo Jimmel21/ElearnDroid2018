@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ElearnDroid2018</string>
+    <string name="introPara">Android is a comprehensive open source platform designed for mobile devices. It is championed by Google and owned by Open Handset Alliance. The goal of the alliance is to “accelerate innovation in mobile and offer consumers a richer, less expensive, and better mobile experience.” Android is the vehicle to do so. Android can run on tablets and other mobile devices.</string>
+    <string-array name="widgets">
+        <item>Toast</item>
+        <item>DatePicker</item>
+        <item>ImageView</item>
+        <item>ListView</item>
+        <item>Spinner</item>
+        <item>EditText</item>
+        <item>Button</item>
+        <item>NumberPicker</item>
+    </string-array>
+    <string name="btn1">Learn More</string>
+    <string name="btn2">Take Quiz</string>
+    <string name="title_activity_widget_descriptions">WidgetDescriptions</string>
+    <string name="toast">An Android Toast is a small message displayed on the screen, similar to a tool tip or other similar popup notification. A Toast is displayed on top of the main content of an activity, and only remains visible for a short time period. Toast uses a makeText() method which takes in the Context, the text and the duration of the toast.</string>
+    <string name="DatePicker">Android Date Picker allows you to select the date consisting of day, month and year in your custom user interface. For this functionality android provides DatePicker and DatePickerDialog components. getMonth(), getDayOfMonth(), getYear(), setMaxDate() and setMaxDate() are just a few of the methods associated with the DatePicker object.</string>
+    <string name="ImageView">In Android, ImageView class is used to display an image file in application. The images can be set in the layout XML file or in the Java code. Images can only be named using common letters, digits and underscores.</string>
+    <string name="ListView">Android ListView is a view which groups several items and display them in vertical scrollable list. The ListView class needs to implement an Adapter, which pulls content from a source such as an array or database, and stores the items in the list.</string>
+    <string name="Spinner">Spinner allows you to select an item from a drop down menu. Spinners implement the AdapterView class to get the item that is selected.</string>
+    <string name="EditText">A EditText is an overlay over TextView that configures itself to be editable. It is the predefined subclass of TextView that includes rich editing capabilities such as the ability to accept multiple input types.</string>
+    <string name="Button">A Button is a Push-button which can be pressed, or clicked, by the user to perform an action. A button\'\s functionality can be written in Java code where the method implements the onClickListener() method. </string>
+    <string name="NumberPicker">In your application, if you need to provide an option of allowing user to select a number from a pre defined range of numbers, then you’ll have to use android NumberPicker widget. Depending on the theme applied, number picker is displayed in different styles.</string>
+    <string name="Name">Enter username:</string>
+    <string name="Score">Your high score:</string>
+
+
+    <string name="toast1"> When a toast is called, the current activity becomes invisible.</string>
+    <string name="toast2"> The makeText() method only takes in two parameters.</string>
+
+    <string name="datePickerQ"> getDayOfMonth() and getMonth() are two methods of the DatePicker object.</string>
+    <string name="imageV1"> Certain symbols such as capital letters are not allowed as names for images. </string>
+
+    <string name="imageV2"> An image resource can only be set in the layout XML file.</string>
+    <string name="listV"> A ListView object does not always require an adapter.</string>
+
+    <string name="spinnerQ">A Spinner has the same characteristics of a dropdown menu.</string>
+    <string name="editTextQ">Multiple types of input types can be set on a single EditText. </string>
+
+    <string name="buttonQ">Buttons must implement the onClickListener() method of Button class.</string>
+    <string name="numPickerQ">Depending on the theme applied, NumberPicker is displayed in different styles.</string>
+
+
+    <string name="intents">Android application components can connect to other Android applications. This connection is based on a task description represented by an Intent object. Intents are asynchronous messages which allow application components to request functionality from other Android components. Intents allow you to interact with components from the same applications as well as with components contributed by other applications. Intents with callback can go to one activity, do a process and return the result to the original activity.</string>
+
+    <string name="Paper1Desc">Research on Development of Android Application: Introduced the Android platform and the features of Android applications, gave a detailed description of Android application framework from the prospective of developers. A simple music player is provided as instance to illustrate the basic working processes of Android application components. This paper could provide guidance to understanding the operation mechanism of Android applications and to developing applications on Android platform. Authors: Jianye Liu ; Jiankun Yu , Year:2011</string>
+    <string name="Paper2Desc">Android Application Development and Its Security: In this paper we will look at the Android platform and Android based mobile application development and its security. Further we will look to explore an Android application available in google play store My Notepad. This application is used to save notes by using easy direct manipulation. It is featured with functions as Voice Navigation and Voice Based Searching, it requires internet connection to utilize these key features as well. We then present an outline on further research and development of the application. Authors: Shubhankar Mukherjee1 ; Jyoti Prakash ; Deepak Kumar, Year: 2015</string>
+
+</resources>
